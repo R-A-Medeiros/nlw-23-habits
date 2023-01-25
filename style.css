@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,13 +36,8 @@ button {
 
   font-family: "Inter";
   font-weight: 600;
+  font-size: 16px;
   line-height: 125%;
-}
-
-form {
-  display: flex;
-
-  padding: 0 48px;
 }
 
 #form-habits {
@@ -89,16 +86,21 @@ form {
   line-height: 125%;
 
   color: #a1a1aa;
+
+  text-align: center;
 }
 
 input {
   appearance: none;
   -webkit-appearance: none;
+
   width: 64px;
   height: 64px;
 
   border: 2px solid #27272a;
   border-radius: 8px;
+
+  background: #18181b;
 }
 
 input:checked {
